@@ -30,11 +30,7 @@ volunteer-management-system/ ├── volunteer-frontend/ │ ├── public/
 ---
 
 ## 🔧 Setup Instructions
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/volunteer-management-system.git
-cd volunteer-management-system
 
 1. Clone the Repository
     bash
