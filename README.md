@@ -35,7 +35,7 @@ volunteer-management-system/ ├── volunteer-frontend/ │ ├── public/
 1. Clone the Repository
     bash
 
-    git clone https://github.com/yourusername/volunteer-management-system.git
+    git clone https://github.com/suhanakesharwani/Volunteer-Management-System.git
     cd volunteer-management-system
 2. Setup Frontend
     bash
@@ -53,3 +53,12 @@ volunteer-management-system/ ├── volunteer-frontend/ │ ├── public/
     ✅ Ensure MongoDB is running locally or set your connection string in a .env file:
     MONGO_URI=mongodb://localhost:27017/volunteerDB
     PORT=5000
+## 📌 Future Enhancements
+Admin login & authentication
+
+Email notifications
+
+Volunteer activity tracking
+
+## 🧑‍💻 Author
+Suhana Kesharwani
