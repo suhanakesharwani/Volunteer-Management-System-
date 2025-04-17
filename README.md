@@ -30,36 +30,30 @@ volunteer-management-system/ ├── volunteer-frontend/ │ ├── public/
 ---
 
 ## 🔧 Setup Instructions
-
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/volunteer-management-system.git
 cd volunteer-management-system
 
+1. Clone the Repository
+    bash
+
+    git clone https://github.com/yourusername/volunteer-management-system.git
+    cd volunteer-management-system
 2. Setup Frontend
-bash
+    bash
 
-cd volunteer-frontend
-npm install
-npm run dev
-
+    cd volunteer-frontend
+    npm install
+    npm run dev
 3. Setup Backend
+    bash
 
-bash
-cd volunteer-backend
-npm install
-node server.js
+    cd volunteer-backend
+    npm install
+    node server.js
 
-📌 Future Enhancements
-Admin login & authentication
-
-Email notifications
-
-Volunteer activity tracking
-
-🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-🧑‍💻 Author
-Suhana Kesharwani
+    ✅ Ensure MongoDB is running locally or set your connection string in a .env file:
+    MONGO_URI=mongodb://localhost:27017/volunteerDB
+    PORT=5000
